@@ -1,0 +1,115 @@
+
+
+header{
+    position: relative;
+    z-index: 0;
+
+    .carousel-indicators{
+        margin-bottom: 60px;
+        button{
+            width: 18px !important;
+            height: 18px !important;
+            border: unset !important;
+            border-radius: 50%;
+        }
+    }
+
+    .carousel-caption{
+        position: absolute;
+        bottom:50%;
+        z-index: 1;
+
+        h2{
+            font-size: 50px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        a{
+            display: inline-block;
+            border: 1px solid white;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: 500;
+            font-size: 15px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: 0.5s;
+
+            &:hover{
+                background: white;
+                color: var(--color-black);
+            }
+        }
+    }
+
+    &::after{
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        background: linear-gradient(to right, rgb(176, 106, 179), rgb(69, 104, 220));
+        opacity: 0.9;
+    }
+    nav{
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        .container{
+            .row{
+                .col-12{
+                    display: flex;
+                    justify-content: space-between;
+                    .nav_brand{
+                        font-size: 35px;
+                        padding: 15px;
+                        font-family: var(--font-family);
+                        color: white;
+                    }
+                    .nav-bar{
+                        display: flex;
+                        align-items: center;
+                        .nav_links{
+                            display: flex;
+                            list-style-type: none;
+                            margin: unset;
+                            padding: unset;
+                            li{
+                                margin: 10px 15px 5px;
+                                .nav_link{
+                                    color: white;
+                                    text-decoration: none;
+                                    font-family: var(--font-family);
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    padding-bottom: 5px;
+
+                                    &:hover{
+                                        border-bottom: 2px solid white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.nav_colored{
+    background-color: rgba(0,0,0,0.8);
+    transition: 0.8s all linear;
+}
+
+.nav_transparent{
+    background-color: transparent;
+    transition: 0.8s all linear;
+}

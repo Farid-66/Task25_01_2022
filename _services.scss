@@ -1,0 +1,46 @@
+
+
+main{
+    #services{
+        padding: 100px 0px;
+        .container{
+            .row{
+                @include section_title
+            }
+
+            .our_services{
+                margin-top: 70px;
+                .services_card{
+                    padding: 0px 10px;
+                    margin: 20px 0px;
+                    .services_card_icon{
+                        i{
+                            color: var(--color-blue);
+                            font-size: 35px;
+                            font-weight: 400;
+                            margin-bottom: 20px;
+                        }
+                    }
+
+                    .services_card_title{
+                        h4{
+                            font-size: 20px;
+                            font-weight: 700;
+                            margin-bottom: 20px;
+                            color: var(--color-black);
+                        }
+                    }
+
+                    .services_card_body{
+                        p{
+                            font-size: 15px;
+                            font-weight: 400; 
+                            margin-bottom: 20px;
+                            color: var(--color-black);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

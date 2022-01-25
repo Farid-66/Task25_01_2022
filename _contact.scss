@@ -1,0 +1,75 @@
+main{
+    #contact{
+        background-color: rgb(248, 248, 248);
+        padding: 100px 0px;
+        .container{
+            .row{
+                @include section_title;
+            }
+
+            .contact_us{
+                margin-top: 70px;
+
+                .col-7{
+                    form{
+                        input{
+                            @include form_input(unset)
+                        }
+    
+                        textarea{
+                            @include form_input(190px)
+                        }
+    
+                        button{
+                            background-color: transparent;
+                            border: 1px solid var(--color-black);
+                            padding: 14px 35px;
+                            color: var(--color-black);
+                            border-radius: unset;
+                            margin-top: 10px;
+                            font-size: 15px;
+                            font-weight: 600;
+                            transition: 0.6s;
+                            font-family: var(--font-family);
+    
+                            &:hover{
+                                border: 1px solid var(--color-blue);
+                                color: var(--color-blue);
+                            }
+                        }
+                    }
+                }
+
+                .col-5{
+                    .social_media{
+                        ul{
+                            display: flex;
+                            list-style-type: none;
+                            padding: unset;
+                            li{
+                                margin: 0px 5px;
+                                width: 35px;
+                                height: 30px;
+                                border: 1px solid var(--color-black);
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                a{
+                                    text-decoration: none;
+                                    color: var(--color-black);
+                                }
+
+                                &:hover{
+                                    border: 1px solid var(--color-blue);
+                                    a{
+                                        color: var(--color-blue);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

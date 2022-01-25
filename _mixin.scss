@@ -1,0 +1,48 @@
+@mixin section_title {
+    .col-12{
+        text-align: center;
+        h2{
+            font-family: var(--font-family);
+            font-size: 32px;
+            font-weight: 700;
+            color: #1c1b1b;
+            margin-bottom: 40px;
+            position: relative;
+            display: inline-block;
+
+            &::after{
+                content: "";
+                display: inline-block;
+                width: 100px;
+                height: 3px;
+                background-color: #7d7373;
+                position: absolute;
+                bottom:-15px;
+                left: 70px;
+                
+            }
+            span{
+                color: #4568DC;
+            }
+        }
+        p{
+            font-size: 15px;
+            font-family: var(--font-family);
+        }
+    }
+}
+
+@mixin form_input($height) {
+    border: 1px solid var(--color-black);
+    border-radius: unset;
+    padding: 12px;
+    margin-bottom: 20px;
+    height: $height !important;
+    resize: unset;
+    background-color: transparent;
+    &:focus{
+        box-shadow: unset;
+        border:1px solid var(--color-blue);
+        background-color: white;
+    }
+}

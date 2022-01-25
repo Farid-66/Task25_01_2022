@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+@import "_header";
+@import "_mixin";
+@import "_services";
+@import "_contact";
+
+
+:root{
+    --font-family:'Open Sans', sans-serif;
+    --color-blue:#4568DC;
+    --color-black:#1c1b1b;
+}
+
+
+footer{
+    .container{
+        .row{
+            .col-12{
+                padding: 30px;
+                text-align: center;
+                p{
+                    margin: unset;
+                }
+            }
+        }
+    }
+}
