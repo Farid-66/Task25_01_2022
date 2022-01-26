@@ -7304,23 +7304,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {},
+    "C:\\Users\\tu201806127\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\HDD\\CodeAcademy\\Back-end\\Task25_01_2022\\Task25_01_2022\\Back_end\\Task25_01_2022\\Task25_01_2022\\Task25_01_2022.csproj",
+      "projectUniqueName": "C:\\Users\\tu201806127\\Desktop\\Task25_01_2022-master\\Back_end\\Task25_01_2022\\Task25_01_2022\\Task25_01_2022.csproj",
       "projectName": "Task25_01_2022",
-      "projectPath": "C:\\Users\\HP\\Desktop\\HDD\\CodeAcademy\\Back-end\\Task25_01_2022\\Task25_01_2022\\Back_end\\Task25_01_2022\\Task25_01_2022\\Task25_01_2022.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\HDD\\CodeAcademy\\Back-end\\Task25_01_2022\\Task25_01_2022\\Back_end\\Task25_01_2022\\Task25_01_2022\\obj\\",
+      "projectPath": "C:\\Users\\tu201806127\\Desktop\\Task25_01_2022-master\\Back_end\\Task25_01_2022\\Task25_01_2022\\Task25_01_2022.csproj",
+      "packagesPath": "C:\\Users\\tu201806127\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tu201806127\\Desktop\\Task25_01_2022-master\\Back_end\\Task25_01_2022\\Task25_01_2022\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tu201806127\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7384,7 +7384,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
